@@ -14,7 +14,7 @@ def send_welcome(message):
 
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
-    bot.reply_to(message, 'ᴊᴀʟᴅɪ sᴇ ᴋᴏɪ ғɪʟᴇ ʙʜᴇᴊᴏ ʙᴀʙʏ ᴊɪsᴋᴏ ᴍᴀɪɴ ʟɪɴᴋ ᴍᴇ ᴄᴏɴᴠᴇʀᴛ ᴋᴀʀ sᴀᴋᴜ ')    
+    bot.reply_to(message, 'ᴊᴀʟᴅɪ sᴇ ᴋᴏɪ ғɪʟᴇ ʙʜᴇᴊᴏ ʙᴀʙʏ ᴊɪsᴋᴏ ᴍᴀɪɴ ʟɪɴᴋ ᴍᴇ ᴄᴏɴᴠᴇʀᴛ ᴋᴀʀ sᴀᴋᴜ')    
 
 @bot.message_handler(content_types=['photo', 'video', 'audio', 'document'])
 def file_sent(message):
